@@ -23,6 +23,7 @@ const serverHeader = ({
     server
 }: ServerHeaderProps ) => {
 
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const {onOpen} = useModal();
 
     const isAdmin = role === MemberRole.ADMIN;
