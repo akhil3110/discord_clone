@@ -1,11 +1,12 @@
 # Discord_Clone
 ## About the Project:
-This is a Discord_Clone 
-Where user can create Server and invite other users to join.
-A server can have multiple channel which can be
-Text where only message allowed message can also have attachment  like pdf or image
-Audio where we can have audio call
-Video where User can have video call
+This is a Discord_Clone.<br />
+
+Where user can create Server and invite other users to join.<br />
+A server can have multiple channel which can be:
+* Text where only message allowed message can also have attachment  like pdf or image
+* Audio where we can have audio call
+* Video where User can have video call
 
 A user in a server can also have role like moderator admin and guest.
 User who created server is Admin and can assign role to other users.
