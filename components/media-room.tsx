@@ -27,11 +27,6 @@ export const MediaRoom = ({
     const name = `${user.firstName} ${user.lastName}`;
 
     (async () => {
-        console.log({
-            apiKey: process.env.LIVEKIT_API_KEY,
-            apiSecret: process.env.LIVEKIT_API_SECERET,
-            serverUrl: process.env.NEXT_LIVEKIT_PUBLIC_URL,
-        })
       try {
         const resp = await fetch(`/api/livekit?room=${chatId}&username=${name}`);
         const data = await resp.json();
@@ -58,7 +53,7 @@ export const MediaRoom = ({
   return (
     <LiveKitRoom
       data-lk-theme="default"
-      serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
+      serverUrl="wss://discordclone-bzqrnfsg.livekit.cloud"
       token={token}
       connect={true}
       video={video}
